@@ -1,0 +1,32 @@
+html {
+	font-size: 18px;
+	font-family: helvetica;
+}
+
+.logo {
+	background-color: black;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.logo .container {
+	display: flex;
+	width: 960px;
+	padding-top: 0.66rem;
+	padding-bottom: 0.66rem;
+	align-items: center;
+}
+
+.logo img {
+	height: 1.5rem;
+	padding-left: 0.5rem;
+	padding-right: 1rem;
+}
+
+.logo h2 {
+	color: white;
+	font-weight: bold;
+	padding-top: 0.66rem;
+	padding-bottom: 0.66rem;
+}
