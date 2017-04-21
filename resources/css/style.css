@@ -1,8 +1,12 @@
 /* Base */
 
 html {
-	font-size: 16px;
+	font-size: 18px;
 	font-family: helvetica;
+}
+
+img {
+	height: 9rem;
 }
 
 /* Logo Section */
@@ -74,3 +78,69 @@ html {
 	font-weight: bold;
 	padding-top: 0.25rem;
 }
+
+/* Menu Section */
+
+.menu {
+	background-color: #B30026;
+	display: flex;
+	justify-content: center;
+}
+
+.menu .container {
+	display: flex;
+	width: 960px;
+	color: white;
+	font-weight: bold;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+}
+
+span {
+	margin-right: 100px;
+}
+
+/* Menu Section */
+
+.product {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.product .container {
+	width: 960px;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+}
+
+.box {
+	border: 4px solid black;
+	color: white;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box p {
+	background-color: black;
+	text-align: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	width: 100%
+}
+
+.box img {
+	height: 9rem;
+	width: 9rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+
+
+
