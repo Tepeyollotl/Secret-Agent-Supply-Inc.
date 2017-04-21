@@ -1,7 +1,11 @@
+/* Base */
+
 html {
-	font-size: 18px;
+	font-size: 16px;
 	font-family: helvetica;
 }
+
+/* Logo Section */
 
 .logo {
 	background-color: black;
@@ -29,4 +33,44 @@ html {
 	font-weight: bold;
 	padding-top: 0.66rem;
 	padding-bottom: 0.66rem;
+}
+
+/* Banner Section */
+
+.banner {
+	height: 25rem;
+	width: 100%;
+	background-image: url(/Users/amelgoza/Desktop/Projects/SecretAgentSupply/resources/img/moto.jpeg);
+	background-size: cover;
+	display: flex;
+	align-items: center
+}
+
+.banner .container {
+	width: 20rem;
+	background-color: black;
+	color: white;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	margin-top: 9rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 150px;
+	margin-bottom: 100px;
+	}
+
+
+.banner h3 {
+	padding-top: 2rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.banner h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	padding-top: 0.25rem;
 }
