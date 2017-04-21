@@ -97,7 +97,7 @@ img {
 }
 
 span {
-	margin-right: 100px;
+	margin-right: 102px;
 }
 
 /* Menu Section */
@@ -112,7 +112,6 @@ span {
 	width: 960px;
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid black;
 }
 
 .box {
@@ -141,6 +140,56 @@ span {
 	margin-bottom: 2rem;
 }
 
+/* Contact Section */
 
+.contact {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4rem;
+}
+
+.contact .container {
+	width: 960px;
+	display: flex;
+	justify-content: space-between
+}
+
+.location {
+	width: 35%;
+	text-align: center;
+}
+
+.hours {
+	width: 35%;
+	text-align: center;
+}
+
+.label {
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	background-color: black;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+/* Footer Section */
+
+.footer {
+	height: 5rem;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.footer .container {
+	width: 960px;
+	display: flex;
+	align-items: center
+}
+
+.footer p {
+	color: white;
+}
 
 
