@@ -44,7 +44,7 @@ img {
 .banner {
 	height: 25rem;
 	width: 100%;
-	background-image: url(/Users/amelgoza/Desktop/Projects/SecretAgentSupply/resources/img/moto.jpeg);
+	background-image: url(../img/moto.jpeg);
 	background-size: cover;
 	display: flex;
 	align-items: center
